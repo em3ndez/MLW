@@ -1,0 +1,26 @@
+version: '3.5'
+
+services:
+  mlw:
+    image: aianalytics/mlw:10.6
+    container_name: mlw
+    command: ["/bin/bash","-c","export","PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/mlwuser/.dotnet/tools", "&&", "dotnet", "App.dll"]
+    working_dir: /publish
+    volumes:
+      - shared-content:/ZMOD
+      - ./Code:/ZMOD/Code
+      - ./Data:/ZMOD/Data
+      - ./Models:/ZMOD/Models 
+      - ./.umoya:/ZMOD/.umoya
+      - ./License:/publish/license
+    ports:
+      - "7008:7008"
+      - "7007:7007"  
+    expose:
+       - "7007"
+       - "7008"
+
+    restart: always
+
+volumes:
+      shared-content:
