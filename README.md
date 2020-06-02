@@ -53,6 +53,7 @@ If you have an idea or found a bug, open an issue to discuss it.
 
 ## Support
 You can ask questions at
+* [Use case(s) and Product components design](https://github.com/SoftwareAG/MLW/tree/dev/docs)
 *	[https://stackoverflow.com](https://stackoverflow.com) by tagging your questions with #pmml, #zmod, #mlw
 *	You can also post bug reports in [GitHub issues](https://github.com/SoftwareAG/ZMOD/issues) 
 
