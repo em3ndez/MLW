@@ -6,7 +6,7 @@ Making and (re-)training machine learning and deep learning models.
 [![Build status](https://dev.azure.com/zementis-ai/ML%20Workbench/_apis/build/status/CI-Pipeline%20(MLW))](https://dev.azure.com/zementis-ai/ML%20Workbench/_build/latest?definitionId=6)
 
 <p align="left">
-  <img width="100%" src="https://github.com/SoftwareAG/ZMOD/blob/master/docs/quick-snaps.gif">
+  <img width="80%" src="https://github.com/SoftwareAG/ZMOD/blob/master/docs/quick-snaps.gif">
 </p>
 
 **ML Workbench** is an open source machine learning and artificial intelligence platform for Data Scientist to solve business problems faster and quicker, build prototypes and convert them to actual project. The modeler helps from data preparation to model building and deployment, the tool supports a large variety of algorithms that can be run without a single line of code. The web based tool has various components which help Data Scientist of different skill levels to perfrom several model building tasks and provides deployment ready PMML files which can be hosted as a REST services.
@@ -35,7 +35,7 @@ ML Workbench allows it's user to cover a wide variety of algorithms and Deep Neu
 7. Integration with Data Scientist's Tools such as Jupyter Notebook and Tensorboard.
 8. Integration with [Repo \ UMOYA](https://hub.umoya.ai/) as a model management framework for versioning models and its resource (data and code) dependencies.
 9. User-specific configurations to connect various Cumulocity IOT tenants.
-10. Swagger Rest API(s) [Interface](https://demo.mlw.ai/swagger/index.html)
+10. Swagger Rest API(s) [Interface](https://github.com/SoftwareAG/MLW/tree/master/docs/design/Rest%20APIs%20-%20Swagger)
 11. Docker [support](https://hub.docker.com/search?q=SoftwareAG&type=image)
 12. Built in [UMOYA CLI](https://hub.umoya.ai/packages/umoya) in ML Workbench's Docker Container Shell.
 13. Enable [DevOps](https://dev.azure.com/zementis-ai/ML%20Workbench/_build/latest?definitionId=6).
@@ -53,6 +53,7 @@ If you have an idea or found a bug, open an issue to discuss it.
 
 ## Support
 You can ask questions at
+* [Use case(s) and Product components design](https://github.com/SoftwareAG/MLW/tree/dev/docs)
 *	[https://stackoverflow.com](https://stackoverflow.com) by tagging your questions with #pmml, #zmod, #mlw
 *	You can also post bug reports in [GitHub issues](https://github.com/SoftwareAG/ZMOD/issues) 
 
