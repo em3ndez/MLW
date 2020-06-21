@@ -13,7 +13,7 @@ export class CompileParameterFormComponent implements OnInit {
   data: any = {};
   formData: any = {};
   public isLoading = false;
-  @ViewChild('compileForm', { static: true }) compileForm;
+  @ViewChild('compileForm', { static: true }) compileForm: any;
   constructor() { }
   closeForm() {
     this.close.emit(true);
@@ -23,7 +23,7 @@ export class CompileParameterFormComponent implements OnInit {
     if (this.compileForm.valid) {
       this.selected.emit(this.formData);
     } else {
-    this.showCompileError = true;
+      this.showCompileError = true;
     }
   }
 

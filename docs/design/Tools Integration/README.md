@@ -1,4 +1,4 @@
-# **Tool (JNB/TB) Integration**
+# **Tool (JNB/TB/NT) Integration**
 
 MLW integrates data scientist's tools TensorBoard and Jupyter Notebook.
 
