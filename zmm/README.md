@@ -1,7 +1,7 @@
-# **ZMM App** - ASPNET Core 3.0.100 / Angular 9 project development setup
+# **ZMM App** - ASPNET Core 3.1.305 / Angular 9 project development setup
 [License](http://irepo.eur.ad.sag/projects/AIAN/repos/zmm/browse/LICENSE)
 
-A startup **ASP.NET Core 3.0.100 / Angular 9** (Ubuntu 18.04) **project** with an end-to-end login (keycloak integration), data, models, code and tasks implementation.
+A startup **ASP.NET Core 3.1.305 / Angular 9** (Ubuntu 18.04) **project** with an end-to-end login (keycloak integration), data, models, code and tasks implementation.
 
 ## INTRODUCING ZMM App
 *   Overview [iWiki](https://iwiki.eur.ad.sag/pages/viewpage.action?pageId=551011559)
@@ -13,7 +13,7 @@ A startup **ASP.NET Core 3.0.100 / Angular 9** (Ubuntu 18.04) **project** with a
 ## This application consists of:
 
 *   Pages using Angular 9 and TypeScript
-*   RESTful API Backend using ASP.NET Core 3.0.100 MVC Web API
+*   RESTful API Backend using ASP.NET Core 3.1.305 MVC Web API
 *   Authentication based on OpenID Connect/OAuth 2.0 using KeyCloak
 *   API Documentation using Swagger
 *   Angular CLI for managing client-side libraries
@@ -23,7 +23,7 @@ A startup **ASP.NET Core 3.0.100 / Angular 9** (Ubuntu 18.04) **project** with a
 ## Gettting started for Development
 
 *   Clone this branch.
-*   Install .Net Core 3.0.100 from [here](https://www.microsoft.com/net/download/dotnet-core)
+*   Install .Net Core 3.1.301 from [here](https://www.microsoft.com/net/download/dotnet-core)
 *   Install your favorite IDE Visual Studio 2017 or Visual Studio Code.
 *   If you are using Visual Studio Code then install extension like [C# extension](https://marketplace.visualstudio.com/items?itemName=jchannon.csharpextensions) and [C# Project Solution](https://marketplace.visualstudio.com/items?itemName=fernandoescolar.vscode-solution-explorer)
 *   Open folder which has ZMM.sln file; If everything is setup well in system, You can see projects under **Solution Explorer**
