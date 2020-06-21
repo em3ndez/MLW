@@ -2,7 +2,7 @@
 
   <PropertyGroup>
     <OutputType>Library</OutputType>
-    <TargetFramework>netcoreapp3.0</TargetFramework>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
     <AssemblyName>ZMM.Tasks</AssemblyName>
     <RootNamespace>ZMM.Tasks</RootNamespace>
     <Version>10.5.0-beta</Version>

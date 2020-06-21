@@ -4,14 +4,14 @@
     <PackageId>CoreProxy</PackageId>
     <Version>1.2.0</Version>
     <Authors>Vadgama Nimesh</Authors>
-    <Description>Middleware Proxy plug n play library for asp .net core 3.0 projects</Description>
+    <Description>Middleware Proxy plug n play library for asp .net core 3.1 projects</Description>
     <TargetFramework>netstandard2.1</TargetFramework>
     <NoWarn>$(NoWarn);CS1591</NoWarn>
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
-    <PackageTags>Proxy , ASP .Net Core 3.0</PackageTags>
+    <PackageTags>Proxy , ASP .Net Core 3.1</PackageTags>
     <IsPackable>true</IsPackable>
-    <Version>10.5.0-beta</Version>
-    <AssemblyVersion>10.5.0</AssemblyVersion>
+    <Version>10.6</Version>
+    <AssemblyVersion>10.6</AssemblyVersion>
   </PropertyGroup>
 
   <ItemGroup>
