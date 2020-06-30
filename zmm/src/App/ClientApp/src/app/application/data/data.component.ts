@@ -61,8 +61,8 @@ export class DataComponent implements OnInit {
 
   public tabSelectedIndex = 0;
   public uploadFilesCounter = 0;
-  @ViewChild(MatPaginator, { static: true }) paginator: MatPaginator;
-  @ViewChild(MatSort, { static: true }) sort: MatSort;
+  @ViewChild(MatPaginator) paginator: MatPaginator;
+  @ViewChild(MatSort) sort: MatSort;
   message = AlertMessages.DATA.deleteConfirmationData;
   public baseImageInfo: any = {};
   public dataHubFormData: any = {

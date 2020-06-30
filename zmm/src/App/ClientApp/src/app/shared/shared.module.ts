@@ -45,7 +45,6 @@ import { CronstruePipe } from './pipes/cronstrue.pipe';
     CronstruePipe
   ],
   exports: [
-    HttpClientModule,
     MaterialModule,
     LoaderComponent,
     AppDropzoneComponent,

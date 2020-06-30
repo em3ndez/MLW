@@ -47,7 +47,7 @@ export class AutomlResultComponent implements OnInit, OnChanges {
   public selectedAutoMLHistory: any = {};
   @Input() selectedHistory: any;
   public dataSourceTaskHistoryGenerationResults: any = [];
-  @ViewChild("generationResultsMatPaginator", { static: true }) paginatorGenerationResults: MatPaginator;
+  @ViewChild("generationResultsMatPaginator") paginatorGenerationResults: MatPaginator;
   @ViewChild(MatSort, { static: true }) sortGenerationResults: MatSort;
   constructor(private apiService: HttpService, private utilService: UtilService) { }
 
