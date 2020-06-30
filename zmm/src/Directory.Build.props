@@ -1,0 +1,40 @@
+<Project>
+
+  <PropertyGroup>
+    <Product>MLW</Product>
+    <PackageVersion Condition="'$(PackageVersion)' == ''">0.1.0-prerelease</PackageVersion>
+    <PackageProjectUrl>https://github.com/SoftwareAG/MLW/</PackageProjectUrl>
+    <PackageLicenseExpression>Apache</PackageLicenseExpression>
+    <PackageIconUrl>https://github.com/SoftwareAG/MLW/blob/master/docs/logo.png</PackageIconUrl>
+    <RepositoryUrl>https://github.com/SoftwareAG/MLW</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+    <IncludeSymbols>true</IncludeSymbols>
+    <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    <LangVersion>7.2</LangVersion>
+    <NoWarn>1591</NoWarn>
+  </PropertyGroup>
+
+  <PropertyGroup>
+    <DebugType>portable</DebugType>
+    <AllowedOutputExtensionsInPackageBuildOutputFolder>$(AllowedOutputExtensionsInPackageBuildOutputFolder);.pdb</AllowedOutputExtensionsInPackageBuildOutputFolder>
+  </PropertyGroup>
+
+  <!-- NuGet dependencies shared across projects -->
+  <PropertyGroup>
+    <MicrosoftAspNetCorePackageVersion>3.1.1</MicrosoftAspNetCorePackageVersion>
+    <MicrosoftEntityFrameworkCorePackageVersion>3.1.1</MicrosoftEntityFrameworkCorePackageVersion>
+    <MicrosoftExtensionsPackageVersion>3.1.1</MicrosoftExtensionsPackageVersion>
+    <NuGetPackageVersion>5.4.0</NuGetPackageVersion>
+  </PropertyGroup>
+
+  <ItemGroup Condition=" '$(TargetFramework)' == 'net461' ">
+    <PackageReference Include="Microsoft.NETFramework.ReferenceAssemblies" Version="1.0.0-preview.2" />
+  </ItemGroup>
+
+  <ItemGroup Condition="'$(CI)' == 'true' AND '$(DOTNET_RUNNING_IN_CONTAINER)' == ''">
+    <PackageReference Include="Microsoft.SourceLink.GitHub" Version="1.0.0" PrivateAssets="All"/>
+  </ItemGroup>
+
+</Project>
