@@ -32,7 +32,7 @@ export class TasksComponent implements OnInit {
     public displayedColumnsTaskHistory: string[] = ['expand', 'executedAt', 'status'];
     public dataSourceTaskHistory: any = [];
     public automlGenerationResultResponse: any;
-    @ViewChild('taskHistoryMatPaginator', { static: true }) paginator: MatPaginator;
+    @ViewChild('taskHistoryMatPaginator') paginator: MatPaginator;
     @ViewChild('taskHistoryMatSort', { static: true }) sort: MatSort;
 
 

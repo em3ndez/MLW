@@ -38,7 +38,7 @@ export class TrainingParametersFormComponent implements OnInit {
     removeSeconds: false,
     removeYears: false
   };
-  @ViewChild('trainingForm', { static: true }) trainingForm: any;
+  @ViewChild('trainingForm', { static: true }) trainingForm;
 
   constructor() { }
 
