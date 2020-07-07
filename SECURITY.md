@@ -12,10 +12,11 @@ Below version(s) are gone through security check and reported known vulnerabilit
 | Version         | Supported             |
 | --------------- | --------------------- |
 | 10.5.0 (beta)   | :white_check_mark:    |
+| 10.6.0  | :white_check_mark:    |
 
 
 ## Known Vulnerabilities
-{{updating}}
+CSRF Attack. It is resolved in other branch, It would be merged after 10.6 release.
 
 ## Reporting a Vulnerability
 
